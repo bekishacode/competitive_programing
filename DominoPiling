@@ -1,0 +1,7 @@
+def domino():
+    n = int(input())
+    m = int(input())
+    product = m * n
+    max_number_of_dominoes = product //2
+    print(max_number_of_dominoes)
+domino()
